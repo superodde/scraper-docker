@@ -1,0 +1,10 @@
+spring:
+  jackson:
+    serialization:
+      indent_output: true
+
+application:
+  dynamo:
+    property-table-name: "scraper-properties"
+    region: "eu-north-1"
+    endpoint: "http://localhost:8000"
