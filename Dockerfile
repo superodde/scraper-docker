@@ -1,4 +1,4 @@
-FROM openjdk:21-jdk
+FROM eclipse-temurin:21-jdk
 MAINTAINER powrn.no
 ARG JAR_FILE=target/*.jar
 COPY ${JAR_FILE} app.jar
